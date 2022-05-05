@@ -1,0 +1,5 @@
+#To copy all files from local to s3 buckets then follow below
+# First create your bucket in s3
+# And then use s3 cp sync command
+# eg., !aws s3 sync . s3://bucket1/ncc_scaleup_new/testing/  
+# it '.'   copies the current folder to s3 bucket named bucket1 and observs  the bucket structure
