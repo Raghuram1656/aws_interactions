@@ -6,3 +6,8 @@ the above command copies current directory to the s3 bucket. And it keeps in syn
 
 copy file to s3 Bucket:
 **!aws s3 cp 'data_processing.ipynb' s3://bucket_level1/bucket_level2/testing/**
+syntax: 
+
+
+good reference: https://bobbyhadz.com/blog/aws-s3-copy-local-folder-to-bucket
+
